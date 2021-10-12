@@ -29,7 +29,7 @@ while True:
     i2c.write(i2cAddr, bytes([result_cm_register]), repeat=False)
     data = i2c.read(i2cAddr, 2)
     
-    #returned data store in byte array. Convert to integer
+    #Convert returned data to integer
     dist = bytes_to_int(data)
     
     #print to serial

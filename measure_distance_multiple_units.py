@@ -32,7 +32,7 @@ while True:
     #read back measured distance of sensor 1
     i2c.write(i2cAddr1, bytes([result_cm_register]), repeat=False)
     data = i2c.read(i2cAddr1, 2)
-    #returned data store in byte array. Convert to integer
+    #Convert returned data to integer
     dist1 = bytes_to_int(data)
     
     #read back measured distance of sensor 2

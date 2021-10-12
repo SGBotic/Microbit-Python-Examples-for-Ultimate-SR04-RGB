@@ -1,4 +1,4 @@
-# Add your Python code here. E.g.
+# Scan the connected I2C devices
 from microbit import *
 
 start = 0x07
