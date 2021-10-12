@@ -5,6 +5,7 @@
 from microbit import *
 
 i2cAddr = 0x60
+
 redRegister = 0x02
 greeRegister = 0x03
 blueRegister = 0x04
@@ -12,6 +13,7 @@ blueRegister = 0x04
 light_intensity_full = 0xFF
 light_intensity_zero = 0x00
 
+#turns off LEDs
 def ledOff():
     i2c.write(i2cAddr, bytes([redRegister,light_intensity_zero]), repeat=False)
     i2c.write(i2cAddr, bytes([greeRegister,light_intensity_zero]), repeat=False)

@@ -4,6 +4,7 @@
 
 from microbit import *
 
+#define I2C address
 i2cAddr = 0x60
 setI2cAddressRegister = 0xE0
 
