@@ -1,4 +1,4 @@
-# MicorPython examples for SGBotic Ultimate SR04 RGB Ultrasonic Sensor
+# MicroPython examples for SGBotic Ultimate SR04 RGB Ultrasonic Sensor
 
 ![03248_github](https://user-images.githubusercontent.com/2862935/136160932-7d405714-955f-415a-843e-dcd4038eb9ee.jpg)
 
